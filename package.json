@@ -1,7 +1,7 @@
 {
-  "name": "@waku/react",
-  "version": "0.0.5",
-  "description": "React hooks and components to use js-waku",
+  "name": "synapse-react",
+  "version": "1.0.0",
+  "description": "React components and hooks for Synapse",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.mjs",
@@ -23,21 +23,21 @@
       "require": "./dist/index.cjs.js"
     }
   },
-  "homepage": "https://github.com/waku-org/waku-ui",
+  "homepage": "https://github.com/bpx-chain/synapse-react",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waku-org/waku-ui.git"
+    "url": "https://github.com/bpx-chain/synapse-react.git"
   },
   "bugs": {
-    "url": "https://github.com/waku-org/waku-ui/issues"
+    "url": "https://github.com/bpx-chain/synapse-react/issues"
   },
   "license": "MIT OR Apache-2.0",
   "keywords": [
-    "waku",
+    "synapse",
     "decentralised",
     "communication",
     "web3",
-    "ethereum",
+    "bpx",
     "dapps",
     "react"
   ],
