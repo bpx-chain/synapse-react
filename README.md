@@ -1,4 +1,4 @@
-# BPX Synapse node
+# Synapse React
 
 ![Synapse](./logo.svg)
 
