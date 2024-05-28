@@ -5,7 +5,7 @@ import type {
   IFilter,
   Unsubscribe,
   Waku,
-} from "@waku/interfaces";
+} from "@bpx-chain/synapse-interfaces";
 
 import type { HookState } from "./types";
 

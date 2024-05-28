@@ -16,7 +16,7 @@ function createRollupConfig(options) {
     output: {
       file: outputName,
       format: options.format,
-      name: "@waku/react",
+      name: "@bpx-chain/synapse-react",
       sourcemap: true,
       globals: { react: "React" },
       exports: "named",

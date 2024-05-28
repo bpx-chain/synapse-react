@@ -16,7 +16,7 @@ export default {
       roots: ["<rootDir>/src"],
       transformIgnorePatterns: ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"],
       displayName: {
-        name: "@waku/react",
+        name: "@bpx-chain/synapse-react",
         color: "cyan",
       },
       testMatch: ["**/__tests__/**/*.(spec|test).ts?(x)"],

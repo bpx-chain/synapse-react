@@ -1,6 +1,6 @@
 import React from "react";
-import type { LightNode, Waku } from "@waku/interfaces";
-import { createLightNode, waitForRemotePeer } from "@waku/sdk";
+import type { LightNode, Waku } from "@bpx-chain/synapse-interfaces";
+import { createLightNode, waitForRemotePeer } from "@bpx-chain/synapse-sdk";
 
 import type {
   BootstrapNodeOptions,

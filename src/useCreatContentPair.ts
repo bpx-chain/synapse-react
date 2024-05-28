@@ -1,5 +1,5 @@
 import React from "react";
-import { createDecoder, createEncoder, waku } from "@waku/sdk";
+import { createDecoder, createEncoder, waku } from "@bpx-chain/synapse-sdk";
 
 import type { ContentPair } from "./types";
 

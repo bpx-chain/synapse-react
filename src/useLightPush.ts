@@ -5,7 +5,7 @@ import type {
   IMessage,
   SendResult,
   Waku,
-} from "@waku/interfaces";
+} from "@bpx-chain/synapse-interfaces";
 
 type AbstractLightPushNode = Waku & {
   lightPush: ILightPushSDK;

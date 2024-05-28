@@ -5,7 +5,7 @@ import type {
   IStoreSDK,
   StoreQueryOptions,
   Waku,
-} from "@waku/interfaces";
+} from "@bpx-chain/synapse-interfaces";
 
 import type { HookState } from "./types";
 

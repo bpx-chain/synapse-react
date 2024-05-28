@@ -1,6 +1,6 @@
-import type { Protocols, Waku } from "@waku/interfaces";
-import type { waku } from "@waku/sdk";
-export type { CreateWakuNodeOptions } from "@waku/sdk";
+import type { Protocols, Waku } from "@bpx-chain/synapse-interfaces";
+import type { waku } from "@bpx-chain/synapse-sdk";
+export type { CreateWakuNodeOptions } from "@bpx-chain/synapse-sdk";
 
 export type HookState = {
   isLoading: boolean;

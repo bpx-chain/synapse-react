@@ -1,5 +1,5 @@
 import React from "react";
-import type { Waku } from "@waku/interfaces";
+import type { Waku } from "@bpx-chain/synapse-interfaces";
 
 import type {
   BootstrapNodeOptions,
