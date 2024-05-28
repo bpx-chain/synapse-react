@@ -3,7 +3,7 @@ import type {
   IEncoder,
   ILightPushSDK,
   IMessage,
-  CoreProtocolResult,
+  SDKProtocolResult,
   Waku,
 } from "@bpx-chain/synapse-interfaces";
 
@@ -16,7 +16,7 @@ type UseLightPushParams = {
   node: undefined | AbstractLightPushNode;
 };
 
-type PushFn = (message: IMessage) => Promise<CoreProtocolResult>;
+type PushFn = (message: IMessage) => Promise<SDKProtocolResult>;
 
 type UseLightPushResult = {
   push?: undefined | PushFn;
