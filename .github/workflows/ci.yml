@@ -26,6 +26,7 @@ jobs:
 
       - run: npm run build
 
-      - run: npm run publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_SYNAPSE_JS_PUBLISH }}
+      - name: Authenticate with registry
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_SYNAPSE_JS_PUBLISH }}" > ./.npmrc
+      
+      - run: npm publish --tag latest --access public
