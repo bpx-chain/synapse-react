@@ -1,5 +1,5 @@
 {
-  "name": "synapse-react",
+  "name": "@synapse/react",
   "version": "1.0.0",
   "description": "React components and hooks for Synapse",
   "type": "module",

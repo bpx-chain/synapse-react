@@ -66,7 +66,7 @@ export const useFilterMessages = (
       .catch((err) => {
         setLoading(false);
         setError(
-          `Failed to subscribe to filer: ${err?.message || "no message"}`,
+          `Failed to subscribe to filter: ${err?.message || "no message"}`,
         );
       });
 
