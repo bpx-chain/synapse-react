@@ -87,8 +87,8 @@
     "typescript": "^4.9.5"
   },
   "peerDependencies": {
-    "@bpx-chain/synapse-interfaces": "^0.0.24",
-    "@bpx-chain/synapse-sdk": "^0.0.25",
+    "@bpx-chain/synapse-interfaces": "*",
+    "@bpx-chain/synapse-sdk": "*",
     "react": "^16.8.0 || ^17 || ^18"
   },
   "peerDependenciesMeta": {
