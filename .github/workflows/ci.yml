@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with: 
-          repository: bpx-chain/synapse-js
+          repository: bpx-chain/synapse-react
 
       - uses: actions/setup-node@v3
         with:
